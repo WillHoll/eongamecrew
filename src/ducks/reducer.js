@@ -11,7 +11,7 @@ const initialState = {
 
 // REDUCER FUNCTION
 export default function reducer(state = initialState, action)  {
-  switch(aciton.type) {
+  switch(action.type) {
     default: return state;
   };
 };

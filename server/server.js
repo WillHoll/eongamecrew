@@ -55,8 +55,8 @@ app.get('/api/signs3', (req, res) => {
 });
 
 // MASSIVE DATATBASE CONNECTION
-massive(CONNECTION_STRING).then(DB => {
+massive(CONNECTION_STRING).then(db => {
   app.set('db', db);
   app.listen(SERVER_PORT, () =>
-    console.log(`${SERVER_PORT} ducks marching on rome`));
+    console.log(`${SERVER_PORT} bottles of beer on the wall`));
 });
